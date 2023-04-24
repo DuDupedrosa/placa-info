@@ -42,7 +42,7 @@ module.exports = {
       animation: {
         animeLeft: 'animeLeft 0.5s forwards',
         animeTop: 'animeTop 1s forwards',
-        fadeInDown: 'fadeInDown 4s ease infinite',
+        fadeInDown: 'fadeInDown 2s ease forwards',
       },
     },
   },
