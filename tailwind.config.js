@@ -34,10 +34,15 @@ module.exports = {
           from: { transform: 'translate3d(0px, -40px, 0)' },
           to: { transform: 'translate3d(0, 0, 0)' },
         },
+        fadeInDown: {
+          '0%': { opacity: 1, transform: 'translateY(-40px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
       },
       animation: {
         animeLeft: 'animeLeft 0.5s forwards',
         animeTop: 'animeTop 1s forwards',
+        fadeInDown: 'fadeInDown 4s ease infinite',
       },
     },
   },
