@@ -38,11 +38,16 @@ module.exports = {
           '0%': { opacity: 1, transform: 'translateY(-40px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
+        pulseAnimate: {
+          from: { transform: 'scale(1)', opacity: 1 },
+          to: { transform: 'scale(1.1)', opacity: 1 },
+        },
       },
       animation: {
         animeLeft: 'animeLeft 0.5s forwards',
         animeTop: 'animeTop 1s forwards',
         fadeInDown: 'fadeInDown 2s ease forwards',
+        pulse: 'pulseAnimate 1s infinite forwards alternate',
       },
     },
   },
