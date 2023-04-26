@@ -48,6 +48,7 @@ module.exports = {
         animeTop: 'animeTop 1s forwards',
         fadeInDown: 'fadeInDown 2s ease forwards',
         pulse: 'pulseAnimate 1s infinite forwards alternate',
+        expanseButton: 'pulseAnimate 0.8s forwards alternate',
       },
     },
   },

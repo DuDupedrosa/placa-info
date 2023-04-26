@@ -15,7 +15,7 @@ const AboutComponent = () => {
     <div className="h-screen">
       <TheHeader />
       <div className="flex gap-16 mb-20">
-        <div className="mt-16 mb-12 rounded-xl">
+        <div className="mt-16 mb-12 rounded-xl lg:block hidden">
           <Image
             src={CarImg}
             alt="car"
@@ -25,7 +25,7 @@ const AboutComponent = () => {
           />
         </div>
         <div className="mt-16 pl-5 pr-5 md:pl-16 md:pr-16">
-          <h1 className="font-semibold text-3xl text-black font-poppins tracking-wide">
+          <h1 className="font-semibold text-2xl md:text-3xl text-black font-poppins tracking-wide">
             <div className="relative">
               <span className="block max-w-max before:inline-block before:w-[32px] before:h-[32px] before:rounded-lg before:bg-yellowMain before:absolute before:-z-10 before:top-2 before:-left-2">
                 Tenha segurança na consulta dos dados do seu veículo
@@ -39,7 +39,7 @@ const AboutComponent = () => {
             você compre algum carro com informações erradas e também,
             facilitando a busca de informações sobre o seu veículo.
           </p>
-          <ul className="mt-12 grid grid-cols-2 gap-5">
+          <ul className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
             <li className="bg-[#f5f5f5] border-[1px] border-solid border-[#f0f0f0] rounded-lg p-5">
               <Image src={SimpleIcon} alt="icon" />
               <h2 className="flex items-center gap-2 font-poppins text-lg font-semibold text-gray-800 mt-4">

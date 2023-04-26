@@ -42,7 +42,7 @@ const TheHeader = () => {
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
               after:h-[2px] after:bg-yellowMain after:rounded-lg after:transition-all"
           >
-            <Link href="consulta">Consulta</Link>
+            <Link href="/">Consulta</Link>
           </li>
           <li
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
@@ -54,13 +54,13 @@ const TheHeader = () => {
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
               after:h-[2px] after:bg-yellowMain after:rounded-lg after:transition-all"
           >
-            <Link href="consulta">Contato</Link>
+            <Link href="contato">Contato</Link>
           </li>
           <li
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
               after:h-[2px] after:bg-yellowMain after:rounded-lg after:transition-all"
           >
-            <Link href="consulta">FAQ</Link>
+            <Link href="faq">FAQ</Link>
           </li>
         </ul>
       </div>
@@ -80,7 +80,7 @@ const TheHeader = () => {
               <ul className="flex gap-6 flex-col justify-center mt-2">
                 <li className="font-poppins text-lg text-black font-semibold cursor-pointer ">
                   <Link
-                    href="consulta"
+                    href="/"
                     className="before:block before:w-[10px] before:h-[10px] before:rounded-full before:bg-yellowMain flex items-center gap-2  "
                   >
                     Consulta
@@ -88,7 +88,7 @@ const TheHeader = () => {
                 </li>
                 <li className="font-poppins text-lg text-black font-semibold cursor-pointer ">
                   <Link
-                    href="consulta"
+                    href="sobre"
                     className="before:block before:w-[10px] before:h-[10px] before:rounded-full before:bg-yellowMain flex items-center gap-2  "
                   >
                     Sobre
@@ -96,7 +96,7 @@ const TheHeader = () => {
                 </li>
                 <li className="font-poppins text-lg text-black font-semibold cursor-pointer ">
                   <Link
-                    href="consulta"
+                    href="contato"
                     className="before:block before:w-[10px] before:h-[10px] before:rounded-full before:bg-yellowMain flex items-center gap-2  "
                   >
                     Contato
@@ -104,7 +104,7 @@ const TheHeader = () => {
                 </li>
                 <li className="font-poppins text-lg text-black font-semibold cursor-pointer ">
                   <Link
-                    href="consulta"
+                    href="faq"
                     className="before:block before:w-[10px] before:h-[10px] before:rounded-full before:bg-yellowMain flex items-center gap-2  "
                   >
                     FAQ
