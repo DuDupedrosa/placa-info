@@ -48,7 +48,7 @@ const TheHeader = () => {
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
               after:h-[2px] after:bg-yellowMain after:rounded-lg after:transition-all"
           >
-            <Link href="consulta">Sobre</Link>
+            <Link href="sobre">Porque utilizar</Link>
           </li>
           <li
             className="font-poppins text-lg text-white font-semibold cursor-pointer after:block after:w-0 hover:after:w-full 
