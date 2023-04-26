@@ -83,9 +83,7 @@ const ContactComponent = () => {
   };
 
   return (
-    <div className="h-screen">
-      <TheHeader />
-
+    <div>
       {/* intro */}
       <div className="mt-16 mb-16">
         <h1 className="font-poppins text-xl uppercase text-gray-600 text-center">
@@ -183,8 +181,9 @@ const ContactComponent = () => {
           </form>
         </div>
       </div>
+
       <Modal
-        isOpen={true}
+        isOpen={modalSuccessOpen}
         onClose={handleCloseModal}
         isCentered
         size={mobile ? 'xs' : 'lg'}
@@ -216,10 +215,6 @@ const ContactComponent = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-
-      <div className="absolute min-[1720px]:bottom-0 w-full">
-        <TheFooter />
-      </div>
     </div>
   );
 };
